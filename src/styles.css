@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+.product-btn{
+    background-color: blue;
+    color: white;
+    font-size: small;
+}
+
+.product-btn2{
+    font-size: small;
+}
+
+.p-2{
+    text-decoration: none;
+}
+
+
+

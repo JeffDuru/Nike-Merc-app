@@ -1,0 +1,16 @@
+<div class="card mb-6 box-shadow">
+    <img class="card-img-top" img src="https://www.futbolemotion.com/imagesarticulos/141048/750/bota-nike-mercurial-superfly-vii-academy-mds-2-fgmg-lemon-venom-black-aurora-green-0.webp" >
+      
+    <div class="card-body">
+      <p class="card-text">Nike Mercurial</p>
+      <p class="card-text">{{productItem.id}}</p>
+      <p class="card-text">{{productItem.description}}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary product-btn" (click)="handleAddToCart()">Add to cart</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary product-btn2">View details</button>
+        </div>
+        <small class="text-muted">{{ productItem.price |currency:'USD'}}  </small>
+      </div>
+    </div>
+  </div>
